@@ -17,7 +17,6 @@ body {
   backdrop-filter: sepia(5%) blur(3px) brightness(70%);
   color: #f0f0f0;
   line-height: 1.6;
-  display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
@@ -69,6 +68,8 @@ header .logo h1 {
 
 .logo-img {
   margin-right: 10px;
+  width: auto;
+  height: auto;
 }
 
 header .logo p {
@@ -82,7 +83,7 @@ nav ul {
   display: flex;
   background-color: rgba(118, 142, 235, 0.2);
   margin: 4px;
-  padding: 20px;
+  padding: 5px;
   border-radius: 4px;
 
 }
