@@ -11,6 +11,17 @@
   font-family: 'Quicksand', sans-serif;
 }
 
+/* STYLE OVERWRITE*/
+@media(max-width: 768px) {
+  /*MOBILE*/
+}
+@media(min-width: 768px) and (max-width: 1024px) {
+  /*TABLET*/
+}
+@media(min-width: 1025px) {
+  /*DESKTOP*/
+}
+
 body {
   font-family: 'Quicksand', sans-serif;
   background-image: url(/Pictures/DSC.jpg);
@@ -19,6 +30,8 @@ body {
   line-height: 1.6;
   flex-direction: column;
   min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 html body {
@@ -81,7 +94,7 @@ nav ul {
   list-style: none;
   display: flex;
   background-color: rgba(118, 142, 235, 0.2);
-  margin: 4px;
+  margin: 20px;
   padding: 5px;
   border-radius: 4px;
 
